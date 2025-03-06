@@ -258,6 +258,10 @@ nav ul li a {
     overflow: hidden;
 }
 
+.home-img .img-box .img-item:hover{
+    transform: scale(0.98);
+}
+
 .home-img .img-box .img-item img {
     top: 5px;
     display: block;
