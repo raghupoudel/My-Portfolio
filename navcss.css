@@ -24,6 +24,7 @@ nav {
     color: white;
 }
 
+
 nav ul {
     display: flex;
     gap: 50px;
@@ -38,6 +39,7 @@ nav ul li {
 }
 
 nav ul li a {
+    margin-left: 20px;
     text-decoration: none;
     cursor: default;
     color: white;
