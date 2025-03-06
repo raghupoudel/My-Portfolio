@@ -6,9 +6,10 @@
 }
 
 body {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     background-color: #081b29;
+
 }
 
 nav {
@@ -55,7 +56,7 @@ nav ul li a {
     
 }
 
-.navbar ul li.active a {
+.navbar ul li.home-active a {
     color: blueviolet;
 }
 
@@ -261,10 +262,15 @@ nav ul li a {
 }
 
 .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     background-color: black;
     padding: 30px;
+    color: white;
 }
+
 
 .footer .social {
     text-align: center;
@@ -290,6 +296,11 @@ nav ul li a {
     margin: 8px;
     border-width: 2px;
 }
+
+.footer .social a:hover{
+    opacity: 0.2;
+}
+
 
 .footer .social .my a {
     text-align: center;
