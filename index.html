@@ -12,6 +12,13 @@
 </head>
 
 <body>
+
+    <header>
+        <div class="greeting-page">
+            <h1 style="font: size 10px;">k cha?</h1>
+            <p>thik xa!</p>
+        </div>
+    </header>
     <nav class="navbar">
         <div>
             <h1 class="logo">Portfolio.</h1>
@@ -32,7 +39,7 @@
                 experiences. With expertise in HTML, CSS, JavaScript, and modern frameworks like React, I bring designs
                 to life with smooth interactions and performance in mind.
                 I love turning ideas into reality through clean, efficient code. Let's create something amazing
-                together!🚀</p> <br>
+                together!</p> <br>
             <div class="btn-box">
                 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=raghunathpoudel09@gmail.com">Hire Me</a>
                 <a href="https://wa.me/9779749418522">Let's Talk</a>
@@ -49,23 +56,11 @@
         </div>
     </section>
 
-    <section class="first-section">
-        <div style="color: red;">
-           
-        </div>
-    </section>
-
-    <section>
-        <div>
-          
-        </div>
-    </section>
-
     <footer class="footer" id="contact">
         <div class="social" id="contact">
             <div class="my">
-                <a  href="">Raghu Poudel</a> <br>
-               <div >&copy; | All rights are reserved |            </div>
+                <a href="">Raghu Poudel</a> <br>
+                <div>&copy; | All rights are reserved | </div>
             </div>
             <a href="https://github.com/raghupoudel"><i class='bx bxl-github'></i></a>
             <a href="https://www.instagram.com/iyfdzkfx"><i class='bx bxl-instagram'></i></a>
@@ -73,5 +68,23 @@
             <a href="https://www.linkedin.com/in/raghupoudel"><i class='bx bxl-linkedin'></i></a>
         </div>
     </footer>
+
+    <script>
+        window.onload = function() {
+      var greetingPage = document.querySelector('.greeting-page');
+      greetingPage.style.display = 'flex';
+      setTimeout(function() {
+        greetingPage.style.display = 'none';
+      }, 2000);
+    }
+        let cursor = document.querySelector('.cursor');
+        document.addEventListener('mousemove',(e)=>{
+            cursor.style.left = e.pageX + 'px';
+            cursor.style.top = e.pageY + 'px';
+         })
+    </script>
+    <script src="https://kit.fontawesome.com/29a6dfad6e.js" crossorigin="anonymous"></script>
 </body>
+z
+
 </html>
